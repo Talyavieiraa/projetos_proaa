@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio WebSite</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Milena</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Inicio</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">Sobre</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Habilidades</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Serviços</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contato</a></div>
+            </div>
+            <i class="fa-solid- fa-bars hamburg" onclick="hamburg()"></i>    
+        </div>
+        <div class="dropdown">
+            <div class="links">
+              <a href="#">Inicio</a>
+              <a href="#">Sobre</a>
+              <a href="#">Habilidades</a>
+              <a href="#">Serviços</a>
+              <a href="#">Contato</a>
+              <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="./img/dev2.png" alt="Foto de perfil">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                    Olá, sou a 
+                    <span>Milena</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    Eu sou uma 
+                    <span class="typing-text"></span>
+                    <label for="">|</label>
+            </div>
+                 <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    Desenvolvedora Front-end com um olhar aguçado para UI/UX Design. Minha especialidade é construir interfaces modernas, acessíveis e de alta performance utilizando HTML5, CSS3, JavaScript e React.
+                </p>
+            <div class="social-links">
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </div>
+            <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                <button>Contrate-me</button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="Sobre" id="Sobre">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>Sobre Mim</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="./img/front.png" alt=""/>
+                </div>
+                <div class="right" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Criar designs e códigos é a minha paixão.</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                        A minha jornada no mundo digital começou com uma pergunta simples: como tornar a tecnologia mais humana? Sou desenvolvedora Front-end com formação e paixão por UI/UX Design. Acredito que um site não deve apenas funcionar perfeitamente, mas também contar uma história e guiar o usuário de forma intuitiva.
+                    </p>
+                    <div class="button" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="skills" id="skills">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Minhas Habilidades</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                    As habilidades refletem o nosso conhecimento.
+                </div>
+                <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Minhas habilidades incluem HTML5, CSS3, JavaScript e PHP. Sou especialista em criar interfaces modernas, acessíveis e de alta performance.</p>
+                <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                    <div class="num">10</div>   
+                        <div class="exp">
+                            Anos de <br/>
+                            Experiência
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML5</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">90%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS3</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">80%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">JavaScript</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">70%</div>
+                    </div>
+                    <div class="box">
+                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">PHP</div>
+                        <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">60%</div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+   </section>
+
+   <section class="services" id="services">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Meus Serviços</span></div>
+        <div class="boxes">
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Desenvolvimento Web</div>
+                <p>
+                    Criação de sites responsivos e modernos utilizando as últimas tecnologias.
+                </p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">Design Gráfico</div>
+                <p>
+                    Criação de designs visuais e identidade visual para marcas e projetos digitais.
+                </p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="topic">Marketing Digital</div>
+                <p>
+                    Estratégias de marketing digital para aumentar a presença online e engajamento.
+                </p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+                <div class="icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="topic">Design de Ícones</div>
+                <p>
+                    Criação de ícones personalizados para aplicativos, sites e interfaces digitais.
+                </p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                <div class="icon">
+                    <i class="fas fa-camera-retro"></i>
+                </div>
+                <div class="topic">Fotografia</div>
+                <p>
+                    Serviços de fotografia profissional para eventos, produtos e portfólios.
+                </p>
+            </div>
+            <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                <div class="icon">
+                    <i class="fas fa-tablet-alt"></i>
+                </div>
+                <div class="topic">Desenvolvimento de Aplicativos</div>
+                <p>
+                    Desenvolvimento de aplicativos móveis para Android e iOS utilizando tecnologias modernas.
+                </p>
+            </div>
+        </div>
+    </div>
+   </section> 
+
+   <section class="contact" id="contact">
+    <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+            <span>Entre em Contato</span>
+        </div>
+        <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Tem algum projeto?</div>
+            <p>
+                Se você tem um projeto em mente ou deseja discutir como posso ajudar a transformar suas ideias em realidade, não hesite em entrar em contato. Estou sempre aberto a novas oportunidades e colaborações. Vamos criar algo incrível juntos!
+            </p>
+            <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                <button>Entrar em Contato</button>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <footer>
+    <div class="text">
+        <span>Created By
+         <a href="#">Talya</a>
+         &#169; 2024 All rights reserved.</span>
+    </div>
+   </footer>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({offset:0});
+  </script>
+    <script src="script.js"></script>
+</body>
+</html>
